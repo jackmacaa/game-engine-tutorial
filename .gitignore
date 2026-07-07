@@ -1,0 +1,27 @@
+# Build output directory
+bin/
+
+# MSVC / linker artifacts
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Generic C/C++ build artifacts
+*.o
+*.a
+*.so
+*.out
+
+# CMake / generated build directories (if added later)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Logs and temporary files
+*.log
+*.tmp
